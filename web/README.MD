@@ -33,3 +33,4 @@ Then:
 3. Type some text and click "Show" for printing the text in ASCII-art or click "Download" for saving the art as a file in .txt format 
 
 
+![alt text](img/ex-web.png "web")​
