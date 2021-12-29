@@ -1,0 +1,27 @@
+{{ define "home" }}
+{{ template "header" }}
+<div class="clearfix"></div>
+<div class="center">
+  <main class="main">
+      <h1>ASCII-ART-WEB</h1>
+      <form action="/ascii-art" method="POST">
+       <div class="form-group">
+           <label for="label">Choose a banner</label>
+           <select name="banner" class="form-control">
+             <option>standard</option>
+             <option>shadow</option>
+             <option>thinkertoy</option>
+           </select>
+         </div>
+       <textarea name="text" id="text" class="text" placeholder="Введите слово" required></textarea><br>
+       <button class="btn btn-light" name="btn" value="download">Download</button>   
+       <button class="btn btn-light">Show</button><br><br>
+   </form>
+    </main>
+    <footer>
+      <pre name="outtext" >{{ . }}</pre>
+   </footer>
+   </div>
+</body>
+</html>
+{{ end }}

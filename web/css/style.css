@@ -1,0 +1,125 @@
+* {margin: 0px; padding: 0px}
+body {
+    background-color: #212121;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-height: 50px;    
+}
+.left {
+    float: left;
+ 
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+.right {
+    float: right;
+
+} 
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    line-height: 20px;
+   
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+.clearfix {
+    clear: both;
+}
+
+.center {
+    padding-top: 20px;
+   margin: 0px auto;
+   max-width: 800px;
+   max-height: 600px;
+   height: auto;
+   text-align: center;
+   background-color:#212121;
+}
+
+main h1, p, div, textarea {
+    margin-bottom: 20px;
+}
+
+footer pre {
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    overflow-y: scroll;
+
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(226, 226, 228) 0%, rgb(255, 255, 255) 100%);
+    border: none;
+  }
+  .btn:hover {
+     background: rgb(192, 192, 194);
+  background: linear-gradient(0deg, rgb(192, 192, 194) 0%, rgb(190, 190, 190) 100%);
+  }
+
+  .form-control {
+    width: 140px;
+    height: 40px;
+    color: rgb(5, 5, 5);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .text {
+      width: 300px;
+      height: 100px;
+  }
+
