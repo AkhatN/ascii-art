@@ -21,3 +21,4 @@
 
 ## Usage
 
+![alt text](ex-justify.png "Example")​
