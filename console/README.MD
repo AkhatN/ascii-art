@@ -1,3 +1,12 @@
+## Description
+
+There are 3 versions of ascii-art program, which you can download separately to see how it works:
+* fs-output
+* justify
+* color
+
+Each version of the program can do the same thing, which is shown below. But each has it's own unique additional feauture.
+
 ## Usage
     student$ go run . "" | cat -e
     student$ go run . "\n" | cat -e
