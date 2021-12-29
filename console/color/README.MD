@@ -10,3 +10,5 @@ The flag has exactly the same format as above, any other formats returns the fol
     EX: go run . something --color=<color>
 
 ## Usage
+ 
+    ![alt text](ex-color.png "Example")
