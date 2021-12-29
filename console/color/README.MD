@@ -11,4 +11,4 @@ The flag has exactly the same format as above, any other formats returns the fol
 
 ## Usage
  
-    ![alt text](ex-color.png "Example")
+  ![alt text](ex-color.png "Color")​
